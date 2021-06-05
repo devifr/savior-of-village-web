@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is version of Web
+if You want to access in local,
+1. install ruby and dependency of rails
+2. Clone or extract reporsitory
+3. in terminal run `bundle install`
+4. run application type `rails s` in terminal
+5. access http://localhost:3000 in your browser
+6. Try It By Your Self
+7. To Check test unit run `bundle exec rspec`
+If You Want to Check in Heroku please visit this url
+https://shielded-spire-33152.herokuapp.com/
