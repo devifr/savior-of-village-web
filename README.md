@@ -9,5 +9,6 @@ if You want to access in local,
 5. access http://localhost:3000 in your browser
 6. Try It By Your Self
 7. To Check test unit run `bundle exec rspec`
+
 If You Want to Check in Heroku please visit this url
 https://shielded-spire-33152.herokuapp.com/
