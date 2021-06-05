@@ -1,0 +1,24 @@
+<h2 class="title">Input Year Person</h2>
+<%= form_with url: counting_url, local: true do |f| %>
+  <div class="input-group-box">
+    <h3 class="label">Person A</h3>
+    <div class="input-group">
+      <%= f.number_field :age_death_a, placeholder: 'Age of Death', class: 'input--style-3', required: true %>
+    </div>
+    <div class="input-group">
+      <%= f.number_field :year_death_a, placeholder: 'Year of Death', class: 'input--style-3', required: true %>
+    </div>
+  </div>
+  <div class="input-group-box">
+    <h3 class="label">Person B</h3>
+    <div class="input-group">
+      <%= f.number_field :age_death_b, placeholder: 'Age of Death', class: 'input--style-3', required: true %>
+    </div>
+    <div class="input-group">
+      <%= f.number_field :year_death_b, placeholder: 'Year of Death', class: 'input--style-3', required: true %>
+    </div>
+  </div>
+  <div class="p-t-10">
+      <button class="btn btn--pill btn--green" type="submit">Submit</button>
+  </div>
+<% end %>
