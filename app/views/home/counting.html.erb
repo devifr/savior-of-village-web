@@ -1,0 +1,11 @@
+<% if @service.errors.present? %>
+  <h2 class="title">Your Input Is Mismatch</h2>
+  <h3 class="label"><%= @service.errors[:value].present? ? @service.errors[:value].first : @service.errors.full_messages %>
+<% else %>
+  <h5 class="label"><%= @service.person_a_output %></h5>
+  <h5 class="label"><%= @service.person_b_output %></h5>
+  <h5 class="label"><%= @service.average_output %></h5>
+<% end %>
+<div class="p-t-10">
+  <%= link_to "Try Again", root_url, class: 'btn btn--pill btn--green' %>
+</div>
